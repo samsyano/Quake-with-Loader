@@ -22,7 +22,15 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity implements android.support.v4.app.LoaderManager.LoaderCallbacks<List<Weather>>{
 
-    WeatherAdapter adapter;
+
+/** gootle api key = "AIzaSyBHvusf1uePX7rStdpjUtqTVHBbfr0h2ds"
+ *this code is added in the manifest application code
+ *  <meta-data
+ android:name="com.google.android.gms.version"
+ android:value="@integer/google_play_services_version" /> */
+
+
+WeatherAdapter adapter;
 //    ArrayList<Weather> weatherlist;
 //    List<Weather> weather_data;
 
